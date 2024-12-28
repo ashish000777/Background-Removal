@@ -1,9 +1,22 @@
 /* eslint-disable react/prop-types */
-import { createContext } from "react";
+import { createContext, useState } from "react";
 
 export const AppContext = createContext()
 
 const AppContextProvider = (props) => {
+    
+    const [credit, setCredit] = useState(false)
+
+    const backendUrl = 
+
+    const loadCreditsData = async (params) => {
+        try {
+            
+        } catch (error) {
+            
+        }
+    }
+
     const value = {
 
     }
